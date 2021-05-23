@@ -23,7 +23,6 @@ string replace(string s, char c1, char c2)
         }
     }
     cout << "houve " << j << " letra(s) mudada(s)" << endl;
-    cout << "endereço da palavra nova: " << &n << endl;
     return s;
 }
 
@@ -44,6 +43,5 @@ int main() {
 
   cout << "a palavra era: " << s << endl;
   cout << "a palavra é: " << replace(s, c1, c2) << endl;
-  cout << "endereço da palavra anterior: " << &s;
 return 0;
 }
