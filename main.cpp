@@ -1,7 +1,18 @@
 #include <iostream>
 using namespace std;
 
-
+string replace(string s, char c1, char c2)
+{
+    int l = s.length();
+    int j = 0;
+    for (int i = 0; i < l; i++) {
+      
+        if (s[i] == c1){
+            s[i] = c2; ;
+        }
+    }
+    return s;
+}
 
 int main() {
   string s;
@@ -19,6 +30,6 @@ int main() {
 
 
   cout << "a palavra era: " << s << endl;
-  
+  cout << "a palavra é: " << replace(s, c1, c2) << endl;
 return 0;
 }
