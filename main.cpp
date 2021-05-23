@@ -1,3 +1,7 @@
+ //o meu github ficou só com essa quantidade de "saves" pois demoraria muito eu salvar com comentário as mudanças uma de cada vez (foram muitas mudanças) então eu simplesmente fiz o meu código abrir um novo replit e coloquei o passo a passo da ordem que eu fiz o meu código
+
+
+
 #include <iostream>
 using namespace std;
 
