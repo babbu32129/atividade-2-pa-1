@@ -42,6 +42,6 @@ int main() {
 
 
   cout << "a palavra era: " << s << endl;
-  cout << "a palavra é: " << replace(s, c1, c2) << endl;
+  cout << replace(s, c1, c2) << " é a nova palavra" << endl;
 return 0;
 }
